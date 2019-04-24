@@ -11,5 +11,5 @@ import CoreLocation
 
 class MapManager{
     
-    static let moscowCenter: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 55.755228, longitude: 37.619974)
+    static let barcelonaCenter: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 41.384944, longitude: 2.172102)
 }

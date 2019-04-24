@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreLocation
 
 class ElectricRefuelingResponseModel:Decodable{
     var result:ElectricRefuelingChargingPointModel
@@ -31,5 +32,7 @@ class ElectricRefuelingModel:Decodable{
     var name:String
     
     
-    
+    func getLocation() -> CLLocationCoordinate2D{
+        return CLLocationCoordinate2D(latitude: self.latitude, longitude: self.longitude)
+    }
 }

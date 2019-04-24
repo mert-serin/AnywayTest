@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import CoreLocation
+
 class ParkingSpotsResponseModel:Decodable{
     enum CodingKeys: String, CodingKey {
         case parkingList = "ParkingList"
@@ -32,6 +34,9 @@ class ParkingSpotsModel:Decodable{
     var name:String
     var parkingAccess:ParkingSpotsParkingAccessModel
     
+    func getLocation() -> CLLocationCoordinate2D{
+        return CLLocationCoordinate2D(latitude: parkingAccess.access.latitude, longitude: parkingAccess.access.longitude)
+    }
 }
 
 class ParkingSpotsParkingAccessModel:Decodable{
