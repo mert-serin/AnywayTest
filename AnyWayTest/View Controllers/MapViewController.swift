@@ -51,10 +51,45 @@ class MapViewController: UIViewController {
 
 extension MapViewController: MKMapViewDelegate{
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-        
+        print("tıklandım")
     }
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        return nil
+        if annotation.isMember(of: MKUserLocation.self) {
+            return nil
+        }
+        
+        let reuseId = "test"
+        var anView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseId) as? MKPinAnnotationView
+        
+        if anView == nil {
+            anView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
+            anView!.animatesDrop = false
+            anView!.canShowCallout = false
+            anView!.pinTintColor = .clear
+            let imageView = UIImageView(frame: CGRect.zero)
+            imageView.tag = 99
+            imageView.contentMode = .scaleAspectFit
+            imageView.frame = CGRect(x: 0, y: 0, width: 20, height: 20)
+            anView!.addSubview(imageView)
+        }
+        else {
+            anView!.animatesDrop = false
+            anView!.canShowCallout = false
+            anView!.pinTintColor = .clear
+            anView?.annotation = annotation
+        }
+        
+        
+        if let imageView = anView!.viewWithTag(99) as? UIImageView{
+            if segmentControl.selectedSegmentIndex == 0{
+                imageView.image = #imageLiteral(resourceName: "parking-points")
+            }else{
+                imageView.image = #imageLiteral(resourceName: "charging-points")
+            }
+        }
+        
+        
+        return anView
     }
 }
