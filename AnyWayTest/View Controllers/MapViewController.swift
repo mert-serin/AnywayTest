@@ -14,10 +14,11 @@ class MapViewController: UIViewController {
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet private weak var mapView: MKMapView!
     
+    private var mapController = MapController()
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        mapView.centerCoordinate = MapManager.moscowCenter
+        mapView.region = MKCoordinateRegion(center: MapManager.moscowCenter, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
     }
     
     @IBAction func onSegmentContolChanged(_ sender: UISegmentedControl) {
