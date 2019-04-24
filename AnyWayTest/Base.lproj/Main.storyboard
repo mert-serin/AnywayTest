@@ -181,7 +181,7 @@
         <scene sceneID="rPg-y4-C3Q">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tZA-58-bSS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Map" selectedImage="map" id="qcD-cq-R0m">
+                    <tabBarItem key="tabBarItem" title="Map" image="map" id="qcD-cq-R0m">
                         <color key="badgeColor" name="textColor" catalog="System" colorSpace="catalog"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -202,7 +202,9 @@
         <scene sceneID="FDn-cg-FZw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MKm-ik-a6f" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="List" selectedImage="list" id="uZP-7B-Jwv"/>
+                    <tabBarItem key="tabBarItem" title="List" image="list" id="uZP-7B-Jwv">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XKq-uc-b0e">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -220,6 +222,6 @@
     </scenes>
     <resources>
         <image name="list" width="32" height="32"/>
-        <image name="map" width="32" height="32"/>
+        <image name="map" width="25" height="25"/>
     </resources>
 </document>
