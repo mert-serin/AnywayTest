@@ -1,5 +1,5 @@
 //
-//  MapManager.swift
+//  MapContoller.swift
 //  AnyWayTest
 //
 //  Created by Mert Serin on 24.04.2019.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-class MapManager{
+class MapController{
     
 }
