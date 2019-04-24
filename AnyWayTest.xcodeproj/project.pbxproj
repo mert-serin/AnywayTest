@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6100B01C2270566200E6756F /* parking-spots.json in Resources */ = {isa = PBXBuildFile; fileRef = 6100B01A2270566200E6756F /* parking-spots.json */; };
+		6100B01D2270566200E6756F /* electric-refueling.json in Resources */ = {isa = PBXBuildFile; fileRef = 6100B01B2270566200E6756F /* electric-refueling.json */; };
 		6186A1F722704BA300F22978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186A1F622704BA300F22978 /* AppDelegate.swift */; };
 		6186A1FC22704BA300F22978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6186A1FA22704BA300F22978 /* Main.storyboard */; };
 		6186A1FE22704BA400F22978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6186A1FD22704BA400F22978 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6100B01A2270566200E6756F /* parking-spots.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "parking-spots.json"; sourceTree = "<group>"; };
+		6100B01B2270566200E6756F /* electric-refueling.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "electric-refueling.json"; sourceTree = "<group>"; };
 		6186A1F322704BA300F22978 /* AnyWayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyWayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6186A1F622704BA300F22978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6186A1FB22704BA300F22978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6100B0192270563D00E6756F /* Datasets */ = {
+			isa = PBXGroup;
+			children = (
+				6100B01B2270566200E6756F /* electric-refueling.json */,
+				6100B01A2270566200E6756F /* parking-spots.json */,
+			);
+			path = Datasets;
+			sourceTree = "<group>";
+		};
 		6186A1EA22704BA300F22978 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		6186A1F522704BA300F22978 /* AnyWayTest */ = {
 			isa = PBXGroup;
 			children = (
+				6100B0192270563D00E6756F /* Datasets */,
 				6186A211227053DA00F22978 /* Models */,
 				6186A20C2270530F00F22978 /* Controllers */,
 				6186A20B2270530900F22978 /* Managers */,
@@ -160,8 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6100B01C2270566200E6756F /* parking-spots.json in Resources */,
 				6186A20122704BA400F22978 /* LaunchScreen.storyboard in Resources */,
 				6186A1FE22704BA400F22978 /* Assets.xcassets in Resources */,
+				6100B01D2270566200E6756F /* electric-refueling.json in Resources */,
 				6186A1FC22704BA300F22978 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
