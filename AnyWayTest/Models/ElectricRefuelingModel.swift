@@ -7,20 +7,27 @@
 //
 
 import Foundation
+
+class ElectricRefuelingResponseModel:Decodable{
+    var result:ElectricRefuelingChargingPointModel
+}
+
+class ElectricRefuelingChargingPointModel:Decodable{
+    var chargepoint:[ElectricRefuelingModel]
+}
+
 class ElectricRefuelingModel:Decodable{
     
     enum CodingKeys: String, CodingKey {
-        case globalID = "global_id"
-        case ID
-        case latitude = "Latitude_WGS84"
-        case longitude = "Longitude_WGS84"
-        case name
+        case parkingID = "ParkingID"
+        case latitude = "Lat"
+        case longitude = "Lng"
+        case name = "ParkingName"
     }
     
-    var globalID:Int
-    var ID:Int
-    var latitude:String
-    var longitude:String
+    var parkingID:Int
+    var latitude:Double
+    var longitude:Double
     var name:String
     
     

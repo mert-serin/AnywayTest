@@ -1,0 +1,552 @@
+{
+    "ParkingList": {
+        "Parking": [{
+            "ParkingCode": 2026,
+            "Name": "Ona Glories",
+            "Address": "C  de la Ciutat de Granada, 173-175",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 14,
+                    "AccessAddress": "C  de la Ciutat de Granada, 171",
+                    "Longitude": 2.18961,
+                    "Latitude": 41.404657
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.2,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.006667
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2035,
+            "Name": "Mitre - Putxet",
+            "Address": "Rda. del General Mitre, 203",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 17,
+                    "AccessAddress": "Ronda del General Mitre, 205",
+                    "Longitude": 2.143079,
+                    "Latitude": 41.405277
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.2,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2030,
+            "Name": "P. R. Biomedica",
+            "Address": "C  Doctor Aiguader, 88",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 15,
+                    "AccessAddress": "C  del Doctor Aiguader, 88",
+                    "Longitude": 2.19359,
+                    "Latitude": 41.38543
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.1,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2053,
+            "Name": "Rambla Poblenou",
+            "Address": "Rambla del poblenou, 130 ",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 30,
+                    "AccessAddress": "Rbla. del Poblenou, 130",
+                    "Longitude": 2.1972,
+                    "Latitude": 41.4044
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.2,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 0,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2061,
+            "Name": "Badajoz",
+            "Address": "C  Badajoz, 168",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 33,
+                    "AccessAddress": "C  de Badajoz, 173",
+                    "Longitude": 2.189897,
+                    "Latitude": 41.402871
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.2,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 0,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2009,
+            "Name": "Cardenal Sentmenat-Vergos",
+            "Address": "C Cardenal Sentmenat, 8",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 5,
+                    "AccessAddress": "C  del Cardenal Sentmenat, 8",
+                    "Longitude": 2.1255,
+                    "Latitude": 41.39782
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.1,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2028,
+            "Name": "Placa de les Arts",
+            "Address": "C  Padilla, 159",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 46,
+                    "AccessAddress": "C  de Padilla, 157",
+                    "Longitude": 2.186638,
+                    "Latitude": 41.398453
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.0,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2019,
+            "Name": "Bilbao Llull",
+            "Address": "C  Bilbao, 29 S",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 8,
+                    "AccessAddress": "C  de Bilbao, 29 S",
+                    "Longitude": 2.2046,
+                    "Latitude": 41.4021
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.1,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2006,
+            "Name": "Gracia motos",
+            "Address": "C  Gran de Gracia, 190-192",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 4,
+                    "AccessAddress": "C  Gran de Gracia, 190-192",
+                    "Longitude": 2.15226,
+                    "Latitude": 41.40326
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 0.0,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 0,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2037,
+            "Name": "Marques de Mulhacen",
+            "Address": "C  Marques de Mulhacen, 51 B",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 19,
+                    "AccessAddress": "C  del Marques de Mulhacen, 53",
+                    "Longitude": 2.114755,
+                    "Latitude": 41.394308
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.2,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 0,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2023,
+            "Name": "Litoral Port",
+            "Address": "Av. Litoral, 34",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 11,
+                    "AccessAddress": "Av. del Litoral, 34",
+                    "Longitude": 2.1983,
+                    "Latitude": 41.3885
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.1,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2046,
+            "Name": "Placa Francesc Layret",
+            "Address": "Via Julia, 95",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 25,
+                    "AccessAddress": "Via Julia, 107",
+                    "Longitude": 2.1777,
+                    "Latitude": 41.44209
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.1,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }, {
+            "ParkingCode": 2047,
+            "Name": "Ciutat del Teatre",
+            "Address": "C  de la Franca Xica, 35",
+            "ParkingAccess": {
+                "Access": {
+                    "AccessID": 26,
+                    "AccessAddress": "C  de la Franca Xica, 35",
+                    "Longitude": 2.15668,
+                    "Latitude": 41.37206
+                }
+            },
+            "MaxWidth": null,
+            "MaxHeight": 2.2,
+            "Guarded": 1,
+            "InformationPoint": 1,
+            "Open": "00:00",
+            "Close": "24:00",
+            "Exterior": 0,
+            "HandicapAccess": 1,
+            "ElectricCharger": 1,
+            "WC": 1,
+            "Elevator": 1,
+            "Consigna": 1,
+            "ParkingPriceList": {
+                "Price": [{
+                    "VehicleType": "Moto",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.013907
+                }, {
+                    "VehicleType": "Turisme",
+                    "FractionType": "Normal",
+                    "DescFractionType": "0001",
+                    "Minutes": 1,
+                    "Amount": 0.05325
+                }]
+            },
+            "ReferenceRate": null,
+            "Ownership": 1,
+            "ParkingType": "01"
+        }
+        ]
+    }
+}

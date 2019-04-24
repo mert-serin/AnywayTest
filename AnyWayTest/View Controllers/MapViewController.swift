@@ -21,6 +21,10 @@ class MapViewController: UIViewController {
         mapView.region = MKCoordinateRegion(center: MapManager.moscowCenter, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
+    
     @IBAction func onSegmentContolChanged(_ sender: UISegmentedControl) {
         print(sender.selectedSegmentIndex)
     }

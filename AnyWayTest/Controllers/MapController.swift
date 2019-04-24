@@ -16,8 +16,23 @@ class MapController{
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
-                let jsonData = try decoder.decode([ElectricRefuelingModel].self, from: data)
-                return jsonData
+                let jsonData = try decoder.decode(ElectricRefuelingResponseModel.self, from: data)
+                return jsonData.result.chargepoint
+            } catch {
+                print("error:\(error)")
+                return nil
+            }
+        }
+        return nil
+    }
+    
+    func getParkingSpots() -> [ParkingSpotsModel]?{
+        if let url = Bundle.main.url(forResource: "parking-spots-barcelona", withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let jsonData = try decoder.decode(ParkingSpotsResponseModel.self, from: data)
+                return jsonData.parkingList.parking
             } catch {
                 print("error:\(error)")
                 return nil
