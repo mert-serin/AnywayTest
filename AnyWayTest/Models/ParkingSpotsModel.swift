@@ -8,6 +8,7 @@
 
 import Foundation
 import CoreLocation
+import MapKit
 
 class ParkingSpotsResponseModel:Decodable{
     enum CodingKeys: String, CodingKey {
@@ -25,7 +26,7 @@ class ParkingSpotsListModel:Decodable{
     var parking:[ParkingSpotsModel]
 }
 
-class ParkingSpotsModel:Decodable{
+class ParkingSpotsModel:NSObject, Decodable, MKAnnotation{
     enum CodingKeys: String, CodingKey {
         case name = "Name"
         case parkingAccess = "ParkingAccess"
@@ -34,8 +35,17 @@ class ParkingSpotsModel:Decodable{
     var name:String
     var parkingAccess:ParkingSpotsParkingAccessModel
     
-    func getLocation() -> CLLocationCoordinate2D{
-        return CLLocationCoordinate2D(latitude: parkingAccess.access.latitude, longitude: parkingAccess.access.longitude)
+    // This property must be key-value observable, which the `@objc dynamic` attributes provide.
+    @objc dynamic var coordinate: CLLocationCoordinate2D {
+        get {
+            return CLLocationCoordinate2D(latitude: parkingAccess.access.latitude, longitude: parkingAccess.access.longitude)
+        }
+        set {
+            // For most uses, `coordinate` can be a standard property declaration without the customized getter and setter shown here.
+            // The custom getter and setter are needed in this case because of how it loads data from the `Decodable` protocol.
+            parkingAccess.access.latitude = newValue.latitude
+            parkingAccess.access.longitude = newValue.longitude
+        }
     }
 }
 
